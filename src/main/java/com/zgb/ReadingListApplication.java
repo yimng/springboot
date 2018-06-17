@@ -1,4 +1,4 @@
-package com.edupay;
+package com.zgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

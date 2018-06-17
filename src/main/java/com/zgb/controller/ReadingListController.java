@@ -1,4 +1,4 @@
-package com.edupay.pay.controller;
+package com.zgb.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.edupay.pay.dao.ReadingListRepository;
-import com.edupay.pay.entity.Book;
+import com.zgb.dao.ReadingListRepository;
+import com.zgb.entity.Book;
 
 import java.util.List;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/readingList")
 public class ReadingListController {
 	private ReadingListRepository readingListRepository;
 

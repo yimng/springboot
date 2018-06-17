@@ -1,8 +1,8 @@
-package com.edupay.pay.dao;
+package com.zgb.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.edupay.pay.entity.Reader;
+import com.zgb.entity.Reader;
 
 public interface ReaderRepository extends JpaRepository<Reader, String> {
 }

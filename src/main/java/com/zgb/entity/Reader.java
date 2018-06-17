@@ -1,4 +1,4 @@
-package com.edupay.pay.entity;
+package com.zgb.entity;
 
 import java.util.Arrays;
 import java.util.Collection;
