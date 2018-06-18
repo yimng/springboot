@@ -1,4 +1,4 @@
-package com.zgb.entity;
+package readinglist;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

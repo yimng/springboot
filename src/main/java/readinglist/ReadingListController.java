@@ -1,4 +1,4 @@
-package com.zgb.controller;
+package readinglist;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,9 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import com.zgb.dao.ReadingListRepository;
-import com.zgb.entity.Book;
 
 import java.util.List;
 
@@ -35,6 +32,6 @@ public class ReadingListController {
 	public String addToReadingList(@PathVariable("reader") String reader, Book book) {
 		book.setReader(reader);
 		readingListRepository.save(book);
-		return "redirect:/{reader}";
+		return "redirect:/readingList/{reader}";
 	}
 }
